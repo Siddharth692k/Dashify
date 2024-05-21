@@ -1,0 +1,21 @@
+.headerContentsContainer {
+  background-color: white;
+  color: black;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  padding: 0.9rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.headerContentsContainer h2 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(158, 62, 158);
+}
+
+.headerContentsContainer img {
+  height: 4rem;
+  width: 4rem;
+}

@@ -1,0 +1,78 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginContainerOne {
+  width: 50vw;
+  height: 100vh;
+}
+.loginContainerTwo {
+  width: 50vw;
+  height: 100vh;
+  background-color: rgba(201, 195, 195, 0.2);
+}
+.descriptionContainer {
+  margin-top: 13rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  background-color: transparent;
+  padding: 5rem;
+}
+.descriptionContainer img {
+  height: 4rem;
+  width: 4rem;
+}
+.loginTitleContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.loginTitleContainer p {
+  text-align: justify;
+}
+.loginContentsContainer {
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.SignInForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loginContentsContainer span {
+  font-weight: 600;
+}
+.loginContentsContainer .SignTitle {
+  display: flex;
+  margin-right: 17rem;
+  margin-bottom: 1rem;
+  font-size: larger;
+  font-weight: 600;
+}
+.SignInForm input {
+  height: 1rem;
+  width: 20rem;
+  margin-bottom: 1.5rem;
+  border-style: solid;
+  border-color: rgb(227, 224, 226);
+  border-radius: 15px;
+  padding: 1rem;
+  color: black;
+}
+.SignInForm button {
+  margin-bottom: 1rem;
+  background-color: rgb(158, 9, 158);
+  border-radius: 25px;
+  padding: 15px;
+  border-style: none;
+  width: 22rem;
+  font-weight: 600;
+  font-size: medium;
+}
