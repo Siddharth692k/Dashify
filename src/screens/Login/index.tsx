@@ -23,6 +23,10 @@ const Login = () => {
           name="description"
           content="Sign up now and equip the powerful Ecommerce Dashboard"
         />
+        <meta
+          name="google-site-verification"
+          content="B9LvjdiXItYHSuK6-OzjvXe69syxxWIq7r2KZu0e8f4"
+        />
         <link rel="canonical" href="/" />
       </Helmet>
       <div className="loginContainer">
