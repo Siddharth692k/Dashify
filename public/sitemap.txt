@@ -1,4 +1,4 @@
-https://dashboard-ecom.netlify.app
+https://dashboard-ecom.netlify.app/
 https://dashboard-ecom.netlify.app/dashboard
 https://dashboard-ecom.netlify.app/products
 https://dashboard-ecom.netlify.app/productsCategory
