@@ -1,6 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Header from "./components/Header";
 import Dashboard from "./screens/Dashboard";
 import Products from "./screens/Products";
 import ProductsCategory from "./screens/ProductsCategory";
@@ -12,8 +10,6 @@ import Login from "./screens/Login";
 function App() {
   return (
     <BrowserRouter>
-      {/* <Header /> */}
-      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/Dashboard" element={<Dashboard />} />
