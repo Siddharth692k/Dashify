@@ -1,0 +1,8 @@
+https://dashboard-ecom.netlify.app/
+https://dashboard-ecom.netlify.app/dashboard
+https://dashboard-ecom.netlify.app/products
+https://dashboard-ecom.netlify.app/productsCategory
+https://dashboard-ecom.netlify.app/payments
+https://dashboard-ecom.netlify.app/invoices
+https://dashboard-ecom.netlify.app/settings
+
