@@ -24,7 +24,7 @@ const Login = () => {
           content="Sign up now and equip the powerful Ecommerce Dashboard"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.example.com/login" />
+        <link rel="canonical" href="https://dashboard-ecom.netlify.app/" />
       </Helmet>
       <div className="loginContainer">
         <div className="loginContainerOne">
