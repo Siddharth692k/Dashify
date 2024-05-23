@@ -30,7 +30,7 @@ const Login = () => {
         <div className="loginContainerOne">
           <div className="descriptionContainer">
             <div className="loginTitleContainer">
-              <img src={logo} alt="logo" />
+              <img src={logo} alt="logo" title="brandLogo" />
               <h2>Dashify</h2>
             </div>
             <h3>Navigate Success, Seamlessly</h3>
