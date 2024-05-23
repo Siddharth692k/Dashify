@@ -21,7 +21,7 @@ const Login = () => {
         {!!isSignIn ? <title>Sign Up</title> : <title>Sign in</title>}
         <meta
           name="description"
-          content="Sign up now and equip the powerful Ecommerce Dashboard"
+          content="Join now & experience our powerful Ecommerce Dashboard. Simplify operations, boost productivity, & gain insights into your business!"
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://dashboard-ecom.netlify.app/" />
