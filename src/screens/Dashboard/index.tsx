@@ -10,7 +10,7 @@ const Dashboard = () => {
         <meta name="description" content="Explore dashboard" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <div>Dashboard</div>;
+      <div>Dashboard</div>
     </>
   );
 };
