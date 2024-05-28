@@ -1,0 +1,51 @@
+React SEO notes :
+
+Step 1 :  npm i react-helmet-async  
+                         => command to install Helmet 
+                         => Helmet tag is used to wrap the meta tags in React 
+
+Step 2 : Wrap the <App /> component in the index.tsx with 
+                       =>    <HelmetProvider> <App /> </HelmetProvider>
+             import { HelmetProvider } form "react-helmet-async"; in index.tsx.
+
+Step 3 : Add 
+                   data-rh="true"
+             to  index.html (meta tag)  
+
+     Example :  
+                 <meta
+                    name="description"
+                    content="Web site created using create-react-app"
+                    data-rh="true"
+                 />
+
+Step 4 : Configure the Helmet on a page      
+                  i. title
+                 ii. meta
+                iii. link 
+
+Step 5 : check with Meta Seo Chrome Extension
+
+Step 6 : Go to robots.txt in your react project
+              -> Disallowing a certain page, does not guarantee it does not show up in the search results
+                    
+                    Eg :
+                    # https://www.robotstxt.org/robotstxt.html
+                    User-agent: *
+                    Disallow: /
+                    Disallow: /Dashboard
+
+Step 7 : Deploy the react project in Git and host the front end in Netlify.
+
+Step 8 : create a sitemap.txt in the public folder of your react project 
+
+             For Example : sitemap.txt (File)
+                                  https://website-name.netlify.app/
+                                  https://website-name.netlify.app/Login
+                                  https://website-name.netlify.app/Dashboard
+
+Step 9 : Go to the Google Search Console & add meta tag 
+
+Step 10 : verify with google if that tag is added 
+
+Step 11 : Add sitemap.txt to Google Search Console
